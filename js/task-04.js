@@ -9,11 +9,11 @@ decrementBtn.addEventListener('click', handleDecBtn);
 incrementBtn.addEventListener('click', handleIncBtn);
 
 function handleDecBtn() {
-    value -= 1
-    counterValue.textContent = value
+  value -= 1;
+  counterValue.textContent = value;
 }
 
 function handleIncBtn() {
-    value += 1
-    counterValue.textContent = value
+  value += 1;
+  counterValue.textContent = value;
 }

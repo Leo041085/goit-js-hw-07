@@ -15,13 +15,15 @@ const images = [
 
 const galleryContainer = document.querySelector('.gallery');
 
-const markup = images.map(({url, alt}) => 
-  `<li>
+const markup = images
+  .map(
+    ({ url, alt }) =>
+      `<li>
         <img src="${url}" alt="${alt}" width="260" height="200">
     </li>`
-).join("");
+  )
+  .join('');
 
-
-galleryContainer.insertAdjacentHTML("afterbegin", markup);
+galleryContainer.insertAdjacentHTML('afterbegin', markup);
 
 galleryContainer.classList.add('list');
