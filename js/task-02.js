@@ -16,4 +16,3 @@ const markup = ingredients.map((el) => {
   return li
 });
 listContainer.append(...markup);
-console.log(markup);
