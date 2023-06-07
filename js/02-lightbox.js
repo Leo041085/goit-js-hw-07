@@ -19,5 +19,5 @@ let lightbox = new SimpleLightbox('.gallery a', {
   navText: ['<', '>'],
   captionsData: 'alt',
   captionPosition: 'bottom',
-  animationSpeed: 250,
+  captionDelay: 250,
 });
