@@ -41,7 +41,6 @@ function handlerCardListClick(evt) {
       instance.close();
     }
   };
-
   instance.show();
   document.addEventListener('keydown', handleEscapeKeyPress);
 }
